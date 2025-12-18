@@ -1,18 +1,18 @@
 contacts:
-  name: John Doe
-  title: Software Engineer
-  email: johndoe@example.com
-  address: "City, Country"
-  location: Country
+  name: Hoang Hiep Nguyen
+  title: Full Stack Software Engineer
+  email: nguyenhoanghipe@outlook.com
+  address: "Berwick, Victoria, Australia"
+  location: Australia
   linkedin:
-    url: https://www.linkedin.com/in/johndoe/
+    url: https://www.linkedin.com/in/nguyenhoanghipe
     displayText: johndoe
   github:
-    url: https://github.com/johndoe/
+    url: https://github.com/johndoe
     displayText: "@johndoe"
-  website:
-    url: https://johndoe.com
-    displayText: www.johndoe.com
+  # website:
+  #   url: https://johndoe.com
+  #   displayText: www.johndoe.com
 
 position: Software Engineer
 

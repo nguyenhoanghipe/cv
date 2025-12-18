@@ -7,7 +7,7 @@
   position: configuration.position,
   links: (
     (name: "email", link: "mailto:"+ configuration.contacts.email),
-    (name: "website", link: configuration.contacts.website.url, display: configuration.contacts.website.displayText),
+    // (name: "website", link: configuration.contacts.website.url, display: configuration.contacts.website.displayText),
     (name: "github", link: configuration.contacts.github.url, display: configuration.contacts.github.displayText),
     (name: "linkedin", link: configuration.contacts.linkedin.url, display: configuration.contacts.linkedin.displayText),
     (name: "location", link: "", display: configuration.contacts.address)
@@ -26,7 +26,7 @@
         - #point
       ]
     ]
-    
+
   ],
   [
     == Objective
@@ -65,7 +65,7 @@
     #for method in configuration.methodology [
       • #method
     ]
-    
+
     == Tools
     #for tool in configuration.tools [
       • #tool
